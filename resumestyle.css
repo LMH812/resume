@@ -43,13 +43,11 @@ table {
 }
 body{
     font-family: sans-serif;
-}
-.wrap{
     width: 1200px;
     margin: auto;
 }
 .header{
-    height: 214px;
+    height: 150px;
     border-bottom: 2px solid #000000;
 }
 h1{
@@ -60,10 +58,11 @@ h1{
     height: 190px;
 }
 img{
+    text-align: right;
     margin-top: 48px;
     left: 360px;
-    width: 324px;
-    height: 324px
+    width: 200px;
+    height: 280px;
 }
 .title{
     height: 53px;
@@ -108,7 +107,6 @@ img{
 .skill ul{
     display: inline-block;
     margin-top: 40px;
-    text-align: center;
     border-left: 1px solid #96A9C4;
 }
 .skill ul li{
@@ -121,75 +119,38 @@ img{
 .title .experience{
     margin-top: 72px;
 }
-.experience img{
-    width: 89.5px;
-    height: 66.85px;
-}
-.logo{
-    width: 89.5px;
-    height: 66.85px;
-    margin-top: 8px;
-}
-.hex_content{
-    width: 642px;
-    height: 150px;
-    font-size: 20px;
-    line-height: 30px;
-    margin-top: 8.15px;
+.experience_list ul{
+    margin-top: 16px;
+    font-size: 24px;
+    line-height: 30px;;
 }
 h3{
     font-weight: bold;
     font-size: 24px;
     margin-top: 32px;
 }
-.simtree{
-    width: 72px;
-    height: 73px;
-    margin-top: 8px;
-}
-.simtree_content{
-    font-size: 20px;
-    margin-top: 8px;
-}
-.experience_content{
-    display: inline-block;
-    border-left: 1px solid #96A9C4;
-    margin-left: 216px;
-    margin-top: 16px;
-    padding-left: 24px;
-}
-.footer{
-    height: 401px;
-    background-color: #415165;
-    padding:24px 0 48px 0;
-    margin-top: 76px;
-}
-.footer .title{
-    color: #FFFFFF;
-    width: 1200px;
-    margin: auto;
-    border-bottom: 1px solid #FFFFFF;
-    text-align: center;
-}
-.footer span{
-    color: white;
-    vertical-align: bottom;
-}
-.footer ul{
-    margin-top: 40px;
-    text-align: center;
-}
-.footer ul li{
-    line-height: 36px;
+.autobiography_content{
     font-size: 24px;
-    color: white;
     margin-top: 16px;
+    line-height: 30px;
 }
-.social{
-    text-align: center;
+.buttons{
+    margin: 50px 0px 50px 0px;
+  }
+  
+.btn{
+    color: #FFFFFF;
+    border: solid 3px #FFFF;
+    padding: 5px 20px;
+    margin-right: 10px;
 }
-.social img{
-    width: 48px;
-    height: 48px;
-    margin-left: 24px;
+  
+.fill{
+    transition: 0.5s;
+}
+  
+.fill:hover{
+    background-color: #FFFF;
+    color: #000000;
+    font-weight: 1000;
 }
